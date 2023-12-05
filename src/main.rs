@@ -14,4 +14,3 @@ async fn main(#[shuttle_shared_db::Postgres] pool: PgPool) -> shuttle_axum::Shut
 
     Ok(router.into())
 }
-
